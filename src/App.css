@@ -1,0 +1,36 @@
+#nav {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+}
+
+.nav-item {
+  list-style: none;
+
+  /* border: 1px solid black; */
+  height: 55px;
+  width: 175px;
+
+  font-size: 35px;
+}
+
+li:hover{
+  color: white; /* Font color wouldn't change unless I applied it to li*/
+
+  cursor: pointer;
+  background-color: #161925;
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  border: 1px solid #161925;
+  background-color: #F1D302;
+  height: 20vh;
+  width: 100%;
+
+  display: flexbox;
+}
