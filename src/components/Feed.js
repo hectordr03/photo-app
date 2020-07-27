@@ -16,6 +16,11 @@ import profilePic from '../assests/images/profile-pic.png'
 import img1 from '../assests/images/img1.jpg'
 import img2 from '../assests/images/img2.jpg'
 import img3 from '../assests/images/img3.jpg'
+import img4 from '../assests/images/img4.jpg'
+import img5 from '../assests/images/img5.jpg'
+import img6 from '../assests/images/img6.jpg'
+import img7 from '../assests/images/img7.jpg'
+import img8 from '../assests/images/img8.jpg'
 
 class Feed extends React.Component {
     render () {
@@ -31,13 +36,13 @@ class Feed extends React.Component {
                 <img src={img2} className='images'/>
                 <img src={img3} className='images'/>
 
-                <img src={img1} className='images'/>
-                <img src={img2} className='images'/>
-                <img src={img3} className='images'/>
+                <img src={img4} className='images'/>
+                <img src={img5} className='images'/>
+                <img src={img6} className='images'/>
 
-                <img src={img1} className='images'/>
-                <img src={img2} className='images'/>
-                <img src={img3} className='images'/>
+                <img src={img7} className='images'/>
+                <img src={img8} className='images'/>
+                <img src={img8} className='images'/>
 
             </div>
         )
