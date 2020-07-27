@@ -33,22 +33,24 @@ class Feed extends React.Component {
                     <p id='caption'>Here is a picture of a man on a seat</p>
                 </div> */}
 
-                    
-                <Col>
-                    <img src={img1} alt='' className='images' />
-                    <img src={img2} alt='' className='images' />
-                    <img src={img3} alt='' className='images' />
-                </Col>
-                <Col>
-                    <img src={img4} alt='' className='images' />
-                    <img src={img5} alt='' className='images' />
-                    <img src={img6} alt='' className='images' />
-                </Col>
-                <Col>
-                    <img src={img7} alt='' className='images' />
-                    <img src={img8} alt='' className='images' />
-                    <img src={img9} alt='' className='images' />
-                </Col>
+                <h2>Your profile</h2>
+                <div className='photo-grid'>
+                    <Col>
+                        <img src={img1} alt='' className='images' />
+                        <img src={img2} alt='' className='images' />
+                        <img src={img3} alt='' className='images' />
+                    </Col>
+                    <Col>
+                        <img src={img4} alt='' className='images' />
+                        <img src={img5} alt='' className='images' />
+                        <img src={img6} alt='' className='images' />
+                    </Col>
+                    <Col>
+                        <img src={img7} alt='' className='images' />
+                        <img src={img8} alt='' className='images' />
+                        <img src={img9} alt='' className='images' />
+                    </Col>
+                </div>
                     
                 
             </div>
