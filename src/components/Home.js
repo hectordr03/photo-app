@@ -27,11 +27,6 @@ class Home extends React.Component {
     render () {
         return(
             <div className='feed'>
-                {/* <Image src={img1} fluid className='feed-images'/>
-                <div className='captionBox'>
-                    <Image src={profilePic} roundedCircle id='caption-profile-pic' />
-                    <p id='caption'>Here is a picture of a man on a seat</p>
-                </div> */}
 
                 <h2>Your profile</h2>
                 <div className='photo-grid'>

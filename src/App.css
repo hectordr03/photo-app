@@ -10,17 +10,22 @@
   justify-content: center;
 }
 
+.message {
+  text-align: center;
+  justify-content: center;
+}
+
 .nav-item {
   list-style: none;
 
-  /* border: 1px solid black; */
   height: 55px;
   width: 175px;
 
   font-size: 35px;
+  text-align: center;
 }
 
-li:hover{
+li:hover {
   color: white; /* Font color wouldn't change unless I applied it to li*/
 
   cursor: pointer;
@@ -28,24 +33,26 @@ li:hover{
 }
 
 #header-profile-pic {
-  height: 100px;
-  justify-content: center;
+  height: auto;
+  width: 100px;
 }
 
-
 .header {
-  border: 1px solid #161925;
-  background-color: #F1D302;
+  background-color: #f1d302;
 
-  display: flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 /* End of Nav bar styling */
 
-.feed {
+/* Grid styling for profile pages */
+
+.photo-grid {
   padding: 5px 5px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  /* grid-template-rows: repeat(3, 1fr); */
   grid-gap: 5px;
   justify-content: center;
   align-content: center;
@@ -69,4 +76,17 @@ a:hover {
 a {
   text-decoration: none;
   color: #161925;
+}
+
+/* End of grid styling for profile pages */
+
+.feed {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.profilePics {
+  max-width: 200px;
+  max-height: auto;
 }
