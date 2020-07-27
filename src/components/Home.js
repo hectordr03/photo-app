@@ -23,7 +23,7 @@ import img7 from '../assests/images/img7.jpg'
 import img8 from '../assests/images/img8.jpg'
 import img9 from '../assests/images/img9.jpg'
 
-class Feed extends React.Component {
+class Home extends React.Component {
     render () {
         return(
             <div className='feed'>
@@ -58,4 +58,4 @@ class Feed extends React.Component {
     }
 }
 
-export default Feed;
+export default Home;
