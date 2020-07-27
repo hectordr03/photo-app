@@ -13,11 +13,11 @@ import img7 from '../assests/images/friend-1-profile/img7.jpg'
 import img8 from '../assests/images/friend-1-profile/img8.jpg'
 import img9 from '../assests/images/friend-1-profile/img9.jpg'
 
-export default class User1Profile extends Component {
+export default class UserProfile1 extends Component {
     render() {
         return (
             <div className='feed'>
-                <h2>Friend profile</h2>
+                <h2>Friend 1 profile</h2>
                 <div className='photo-grid'>
                     <Col>
                         <img src={img1} alt='' className='images' />
