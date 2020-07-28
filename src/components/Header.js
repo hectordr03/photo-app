@@ -34,23 +34,23 @@ class Header extends React.Component {
           <h4>Welcome StillInNYC!</h4>
         </div>
 
-        <Router>
+        {/* <Router>
           <Switch>
-            {/* "exact" keyword is used to specify an empty path */}
+            "exact" keyword is used to specify an empty path
             <Route path='/home' exact component={Home} />
             <Route path='/friend-1' component={UserProfile1} />
             <Route path='/friend-2' component={UserProfile2} />
             <Route path='/friend-3' component={UserProfile3} />
           </Switch>
-        </Router>
+        </Router> */}
 
 
         <Dropdown>
           <Dropdown.Toggle>Friends</Dropdown.Toggle>
           <Dropdown.Menu>
             <Dropdown.Item href='/friend-1'>Friend 1</Dropdown.Item>
-            <Dropdown.Item>Friend 2</Dropdown.Item>
-            <Dropdown.Item>Friend 3</Dropdown.Item>
+            <Dropdown.Item href='/friend-2'>Friend 2</Dropdown.Item>
+            <Dropdown.Item href='/friend-3'>Friend 3</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
         {/* <ul id="nav">
