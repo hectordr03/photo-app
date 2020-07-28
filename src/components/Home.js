@@ -3,16 +3,10 @@
 
 import React from 'react';
 
-// Bootstrap Image tag
-// import Image from 'react-bootstrap/Image'
-
-// Bootstrap grid system
-// import Container from 'react-bootstrap/Container';
-// import Row from 'react-bootstrap/Row';
+// Bootstrap imports
 import Col from 'react-bootstrap/Col'
 
 // Images
-// import profilePic from '../assests/images/profile-pic.png'
 import img1 from '../assests/images/img1.jpg'
 import img2 from '../assests/images/img2.jpg'
 import img3 from '../assests/images/img3.jpg'
