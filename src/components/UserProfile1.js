@@ -23,7 +23,7 @@ export default class UserProfile1 extends Component {
 
                 <div>
                     <Image roundedCircle src={userProfilePic} className='profilePics' />
-                    <h2>Friend 1 profile</h2>
+                    <h2>urHomeBoy93</h2>
                 </div>
 
                 <div className='photo-grid'>
