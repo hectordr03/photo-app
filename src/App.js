@@ -31,3 +31,7 @@ function App() {
 }
 
 export default App;
+
+// = = = = = SOURCES = = = = =
+// Random usernames are from : https://www.name-generator.org.uk/username/
+// All images used are mine
